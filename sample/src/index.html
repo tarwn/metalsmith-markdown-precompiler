@@ -1,0 +1,13 @@
+---
+layout: home.html
+---
+
+<ul class='latest-post'>
+  {{#each collections.posts}}
+    <li>
+      <h2>
+        <a href='{{this.path}}/' title='{{this.title}}'>{{this.title}}</a>
+      </h2>
+    </li>
+  {{/each}}
+</ul>
