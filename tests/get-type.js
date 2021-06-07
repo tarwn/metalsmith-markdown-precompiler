@@ -1,8 +1,8 @@
 
 'use strict';
 
-const tcase = require('tape-case');
-
+// const tcase = require('tape-case');
+const test = require('tape');
 const type = require('../lib/get-type');
 
 const testcases = [
@@ -19,4 +19,11 @@ const testcases = [
   { description: 'RegExp', args: [ /^hello/i ], result: 'regexp' }
 ];
 
-tcase(testcases, subject => type(subject));
+// tcase(testcases, subject => type(subject));
+testcases.forEach(tc => {
+  test(tc.description, (t) => {
+    var result = type(tc.args[0]);
+    t.equal(tc.result, result);
+    t.end();
+  });
+});
