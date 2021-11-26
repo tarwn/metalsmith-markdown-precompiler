@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "metalsmith-markdown-precompiler-RECOVERED",
+  "name": "@tarwn/metalsmith-markdown-precompiler",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tarwn/metalsmith-markdown-precompiler.git"
