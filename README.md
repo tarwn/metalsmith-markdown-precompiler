@@ -1,3 +1,8 @@
+**This is a fork of the original library, which has disappeared from npm and github.**
+The tests aren't working properly, I may be missing other files (this is a clone from node_modules), but it appears to be working in an existing site I had.
+
+---
+
 # metalsmith-markdown-precompiler
 
 A Metalsmith plugin that precompiles markdown files.

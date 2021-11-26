@@ -18,11 +18,8 @@
     "metalsmith-layouts": "^1.4.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.4.1",
-    "sinon": "^1.17.2",
-    "tape": "^4.4.0"
-  },
-  "engines": {
-    "node": "5.0.0"
+    "sinon": "^1.17.7",
+    "tape": "^4.14.0"
   },
   "homepage": "https://github.com/tarwn/metalsmith-markdown-precompiler#readme",
   "keywords": [
@@ -39,7 +36,7 @@
     "url": "git+https://github.com/tarwn/metalsmith-markdown-precompiler.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/tape tests/index.js"
+    "test": "tape tests/index.js"
   },
   "version": "1.1.0"
 }
